@@ -1,0 +1,229 @@
+:root{
+    
+}
+*{
+    font-family: 'alfa slab one', cursive;
+    margin: 0; padding: 0;
+    box-sizing:border-box ;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 70%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+}
+section{
+    padding: 2rem 9%;
+}
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+}
+.heading span{
+    background:rgb(79, 167, 235);
+    color: rgb(243, 249, 249);
+    display: inline-block;
+    padding: 0rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+h4{
+    color:black;
+}
+
+.header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 9%;
+    background: rgb(242, 247, 245);
+    box-shadow: var(#156443);
+}
+.home{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(https://img.freepik.com/free-photo/black-white-cow-grazing-pasture-during-daytime_181624-27184.jpg?w=1480&t=st=1694889287~exp=1694889887~hmac=e58aa3566f40fd3fbbf99bd822caa048fe458a92fc3628d93f5c2cad55bfa40f);
+   background-position: center;
+   background-size: cover;
+   padding-top: 17rem;
+   padding-bottom:30rem;
+}
+.home .content{
+    text-align: center;
+    width: 60rem;
+    
+}
+.home .content h2{
+    color: var(--black);
+    font-size: 3.5rem;
+}
+.services .box-container{
+    display: grid;
+    grid-template-columns : repeat (auto-fit , minmax(25% , auto));
+    gap: 1.5rem;
+}
+.services .box-container .box{
+    padding: 3rem 2rem;
+    background: #01271840;
+    outline: var(--boxshadow);
+    outline-offset: 1rem;
+    text-align: center;
+    box-shadow: var(--boxshadow);
+
+}
+.services .box-container .box:hover{
+    outline: var(--boxshadow);
+    outline-offset: 0rem; 
+}
+.services .box-container .box img {
+    margin: 1rem;
+    height: 15rem;
+}
+.services .box-container .box h3{
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+.services .box-container .box p{
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    text-transform: none;
+    transition: 0.25s ease;
+}
+ul{
+    display: flex;
+    list-style:none;
+    flex-wrap: wrap;
+}
+ul li{
+    text-decoration: none;
+    margin: 0 0.75em 0 0.75em;
+}
+ul:hover a{
+    color: black;
+}
+ul:hover a:hover{
+    color: rgb(33, 183, 233);
+    box-shadow: 0 2px 0 0 currentColor;
+}
+.nav{
+    position:fixed ;
+    
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color:white;
+}
+.about img{
+    width: ;
+    height: ;
+}
+.about-text{
+    width: 550px;
+}
+.dan{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.about-text h2{
+    color: rgb(32, 136, 81);
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h4{
+    color: #550404;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.about-text p{
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 13px;
+    margin-bottom: 45px;
+}
+.contact-section{
+    padding: 40px 0;
+    background: #f1f4f2;
+}
+.contact-section h4{
+    text-align: center;
+    color: #040404;
+    font-size: 2rem;
+}
+.border{
+    width: 100px;
+    height: 10px;
+    background:hsl(201, 80%, 27%);
+    margin: 40px auto;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display:block;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 16px auto;
+    border: 20px;
+    border-radius: 8%;
+    background:white;
+    padding: 20px 40px;
+    transition: 0.5s;
+}
+.contact-form-text:hover{
+    box-shadow: 0 0 10px 4px #000;
+}
+textarea .contact-form-text{
+    resize: block ;
+    height: 120;
+}
+.contact-form-btn{
+    
+    float: right;
+    border: 1px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    border-color: #000;
+    background: #186984;
+}
+.contact-form-btn:hover{
+    background: #74d3f2;
+}
+.contact-info{
+    
+    
+    text-align: center;
+    font-size: 2rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.8rem; 
+}
